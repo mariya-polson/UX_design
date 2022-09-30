@@ -1,0 +1,35 @@
+@mixin text-property($fs, $fw, $fc) {
+  font-size: $fs;
+  font-weight: $fw;
+  color: $fc;
+}
+@mixin btn-property($width, $height, $border, $bgcolor, $br) {
+  width: $width;
+  height: $height;
+  border: $border;
+  background: $bgcolor;
+  border-radius: $br;
+  opacity: 1;
+}
+@mixin active-cloned-property {
+  margin-top: 217px;
+}
+@mixin end-slick-property($left) {
+  margin-top: 153px;
+  position: relative;
+  left: $left;
+}
+@mixin ring-property {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  border: 3px solid $color-30;
+  display: flex;
+}
+
+@mixin vertical-line-property {
+  border-left: 2px solid $color-30;
+  height: 30px;
+  position: relative;
+  left: -10px;
+}
